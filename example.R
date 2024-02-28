@@ -8,3 +8,7 @@ model <- lm(y ~ x)
 
 # model summary
 summary(model)
+
+# diagnostics plots
+plot(x, y)
+abline(model, col="red")
